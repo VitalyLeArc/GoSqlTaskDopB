@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="9" author="Domaha">
+        <sql>
+            insert into liquibasetask.developers (name,age,sex) values
+            ('Vasya',18,'male'),
+            ('Alla',28,'female'),
+            ('Borya',32,'male'),
+            ('Alina',22,'female'),
+            ('Alisa',31,'female'),
+            ('Petya',45,'male'),
+            ('Gosha',29,'male'),
+            ('Nazar',54,'male'),
+            ('Foma',62,'male');
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

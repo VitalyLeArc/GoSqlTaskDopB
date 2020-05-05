@@ -9,4 +9,12 @@
     <include file="src/main/resources/liquibase/changelogs/changelog_Vasya_2.xml"/>
     <include file="src/main/resources/liquibase/changelogs/сhangelog_Anya_3.xml"/>
     <include file="src/main/resources/liquibase/changelogs/changelog_Vasya_4.xml"/>
+    <include file="src/main/resources/liquibase/changelogs/сhangelog_Anya_5.xml"/>
+    <include file="src/main/resources/liquibase/changelogs/changelog_inokentiy_6.sql"/>
+    <include file="src/main/resources/liquibase/changelogs/сhangelog_Domaha_7.xml"/>
+    <include file="src/main/resources/liquibase/changelogs/changelog_inokentiy_8.sql"/>
+    <include file="src/main/resources/liquibase/changelogs/changelog_Domaha_9.xml"/>
+    
+
+
 </databaseChangeLog>
