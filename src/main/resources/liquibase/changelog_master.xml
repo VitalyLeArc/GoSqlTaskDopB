@@ -14,7 +14,8 @@
     <include file="src/main/resources/liquibase/changelogs/сhangelog_Domaha_7.xml"/>
     <include file="src/main/resources/liquibase/changelogs/changelog_inokentiy_8.sql"/>
     <include file="src/main/resources/liquibase/changelogs/changelog_Domaha_9.xml"/>
-    
+    <include file="src/main/resources/liquibase/changelogs/changelog_inokentiy_10.sql"/>
+    <include file="src/main/resources/liquibase/changelogs/changelog_Domaha_11.xml"/>
 
 
 </databaseChangeLog>
