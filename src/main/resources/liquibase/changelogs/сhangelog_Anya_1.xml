@@ -5,14 +5,13 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="1_1" author="Anya">
+    <changeSet id="1" author="Anya">
         <sql>
-            use liquibasetask;
-            create table skills(
+            create table liquibasetask.skills(
             id int not null auto_increment,
             skill_name varchar(45)not null,
             grade enum('Junior','Middle','Senior'),
-            primary key(id))
+            primary key(id));
         </sql>
     </changeSet>
 </databaseChangeLog>

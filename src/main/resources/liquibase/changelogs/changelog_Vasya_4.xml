@@ -5,16 +5,18 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="2" author="Vasya">
-        <createTable tableName="developers" schemaName="liquibasetask">
+    <changeSet id="4" author="Vasya">
+        <createTable tableName="companies" schemaName="liquibasetask">
             <column autoIncrement="true" name="id" type="INTEGER">
-                <constraints primaryKey="true" primaryKeyName="id"/>
+                <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="name" type="VARCHAR(45)"/>
-            <column name="age" type="INTEGER"/>
-            <column name="sex" type="ENUM('male','female')"/>
+            <column name="company_name" type="VARCHAR(45)">
+                <constraints nullable="false" />
+            </column>
+            <column name="main_office_city_id" type="VARCHAR(45)">
+                <constraints nullable="false"/>
+            </column>
         </createTable>
     </changeSet>
-
 
 </databaseChangeLog>

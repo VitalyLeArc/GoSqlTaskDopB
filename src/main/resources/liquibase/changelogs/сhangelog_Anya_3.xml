@@ -5,8 +5,13 @@
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <include file="src/main/resources/liquibase/changelogs/сhangelog_Anya_1.xml"/>
-    <include file="src/main/resources/liquibase/changelogs/changelog_Vasya_2.xml"/>
-    <include file="src/main/resources/liquibase/changelogs/сhangelog_Anya_3.xml"/>
-    <include file="src/main/resources/liquibase/changelogs/changelog_Vasya_4.xml"/>
+    <changeSet id="3" author="Anya">
+        <sql>
+            create table liquibasetask.projects(
+            id int auto_increment,
+            project_name varchar(45) not null,
+            version varchar(45) not null,
+            primary key(id));
+        </sql>
+    </changeSet>
 </databaseChangeLog>
